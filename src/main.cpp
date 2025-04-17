@@ -53,7 +53,7 @@ osg::ref_ptr<osg::Geode> BuildShape(TopoDS_Shape occShape)
 
 		Standard_Real UMin = 0, UMax = 0, VMin = 0, VMax = 0;
 		const gp_Trsf& aTrsf = location.Transformation();
-		Standard_Boolean isMirrored = aTrsf.VectorialPart().Determinant() < 0;
+		Standard_Boolean isMirrored = aTrsf.VectorialPart().Determinant() < 0;  //通过变换矩阵的行列式来判断是否翻转
 
 		BRepTools::UVBounds(aFace, UMin, UMax, VMin, VMax);
 		for (Standard_Integer aNodeIter = nodes.Lower(); aNodeIter <= nodes.Upper(); ++aNodeIter)
@@ -62,11 +62,11 @@ osg::ref_ptr<osg::Geode> BuildShape(TopoDS_Shape occShape)
 			gp_Pnt2d uv = uvNodes.Value(aNodeIter);
 			gp_Vec3f normalf = normals.Value(aNodeIter);
 			gp_Dir normal = gp_Dir(normalf.x(), normalf.y(), normalf.z());
-			if ((aFace.Orientation() == TopAbs_REVERSED) ^ isMirrored)
+			if ((aFace.Orientation() == TopAbs_REVERSED) ^ isMirrored)  //如果面方向翻转和镜像属性不同，则反转法线
 			{
 				normal.Reverse();
 			}
-			if (!location.IsIdentity())
+			if (!location.IsIdentity()) //基于面的坐标，来调整点和法线，（对象的点和法线是基于对象的局部坐标系）
 			{
 				vertex.Transform(aTrsf);
 				normal.Transform(aTrsf);
@@ -76,7 +76,7 @@ osg::ref_ptr<osg::Geode> BuildShape(TopoDS_Shape occShape)
 			triNormals->push_back(osg::Vec3(normal.X(), normal.Y(), normal.Z()));
 
 			float x = uv.X(), y = uv.Y();
-			triUvs->push_back(osg::Vec2((x - UMin), (y - VMin)));
+			triUvs->push_back(osg::Vec2((x - UMin), (y - VMin)));   //通过减去 UMin 和 VMin，可以将纹理坐标调整到从 0 开始的范围。
 		}
 
 		int max = 0;
@@ -88,7 +88,7 @@ osg::ref_ptr<osg::Geode> BuildShape(TopoDS_Shape occShape)
 			int index1 = 0;
 			int index2 = 0;
 			int index3 = 0;
-			if ((aFace.Orientation() == TopAbs_REVERSED))
+			if ((aFace.Orientation() == TopAbs_REVERSED))   //如果面翻转，则需要将三角形的顶点顺序颠倒
 			{
 				index1 = aTriangle.Value(1) - 1;
 				index2 = aTriangle.Value(3) - 1;
@@ -118,13 +118,13 @@ osg::ref_ptr<osg::Geode> BuildShape(TopoDS_Shape occShape)
 			triIndexs->push_back(index3 + newStart);
 		}
 
-		newStart += max + 1;
+		newStart += max + 1;    //每个面的三角网格的顶点索引从0开始，所以需要累加
 	}
 
 	triGeom->setVertexArray(triVertices.get());
-	triGeom->setNormalArray(triNormals);
-	triGeom->setNormalBinding(osg::Geometry::BIND_PER_VERTEX);
-	triGeom->setTexCoordArray(0, triUvs.get());
+	triGeom->setNormalArray(triNormals);    //设置几何体的法线数组
+	triGeom->setNormalBinding(osg::Geometry::BIND_PER_VERTEX);  //设置法线数组的绑定模式,BIND_PER_VERTEX: 每个顶点有一个对应的法线。
+	triGeom->setTexCoordArray(0, triUvs.get()); //设置几何体的纹理坐标数组
 	triGeom->addPrimitiveSet(triIndexs.get());
 	osg::ref_ptr<osg::Material>material = new osg::Material;
 	osg::Vec4 color(1, 1, 1, 1.0);

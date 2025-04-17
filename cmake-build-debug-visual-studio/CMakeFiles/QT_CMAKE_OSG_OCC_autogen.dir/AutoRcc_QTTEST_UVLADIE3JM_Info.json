@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "D:/Project/github/occosg/cmake-build-debug-visual-studio/QT_CMAKE_OSG_OCC_autogen",
+	"CMAKE_BINARY_DIR" : "D:/Project/github/occosg/cmake-build-debug-visual-studio",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/Project/github/occosg/cmake-build-debug-visual-studio",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Project/github/occosg",
+	"CMAKE_SOURCE_DIR" : "D:/Project/github/occosg",
+	"INCLUDE_DIR" : "D:/Project/github/occosg/cmake-build-debug-visual-studio/QT_CMAKE_OSG_OCC_autogen/include",
+	"INPUTS" : [],
+	"LOCK_FILE" : "D:/Project/github/occosg/cmake-build-debug-visual-studio/CMakeFiles/QT_CMAKE_OSG_OCC_autogen.dir/AutoRcc_QTTEST_UVLADIE3JM_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "QTTEST" ],
+	"OUTPUT_CHECKSUM" : "UVLADIE3JM",
+	"OUTPUT_NAME" : "qrc_QTTEST.cpp",
+	"RCC_EXECUTABLE" : "D:/Project/github/occosg/thirdpart/qt5.15/msvc2019_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/Project/github/occosg/cmake-build-debug-visual-studio/CMakeFiles/QT_CMAKE_OSG_OCC_autogen.dir/AutoRcc_QTTEST_UVLADIE3JM_Used.txt",
+	"SOURCE" : "D:/Project/github/occosg/src/QTTEST.qrc",
+	"VERBOSITY" : 0
+}

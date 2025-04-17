@@ -1,0 +1,14 @@
+
+n	cpp:S3776"TRefactor this function to reduce its Cognitive Complexity from 27 to the 25 allowed.(´¯ «ıÿÿÿÿ
+J	cpp:S16596"0Define each identifier in a dedicated statement.(ˆ‰‰ùÿÿÿÿ
+A	cpp:S5827@"'Replace the redundant type with "auto".(ıĞ™‡ıÿÿÿÿ
+E	cpp:S1659N"0Define each identifier in a dedicated statement.(„æİÉ
+Ecpp:S872A",Reconsider this operator for 'bool' operand.(‘‘Àõúÿÿÿÿ
+8	cpp:S1110["#Remove these redundant parentheses.(×¯ÂŸ
+B	cpp:S5827˜"'Replace the redundant type with "auto".(İÇƒÆıÿÿÿÿ
+=	cpp:S5827™"'Replace the redundant type with "auto".(Â¤Ìõ
+B	cpp:S5827Ÿ"'Replace the redundant type with "auto".(ğü³œûÿÿÿÿ
+l	cpp:S5025˜"QReplace the use of "new" with an operation that automatically manages the memory.(İÇƒÆıÿÿÿÿ
+g	cpp:S5025™"QReplace the use of "new" with an operation that automatically manages the memory.(Â¤Ìõ
+l	cpp:S5025Ÿ"QReplace the use of "new" with an operation that automatically manages the memory.(ğü³œûÿÿÿÿ
+T	cpp:S2209¦"9Replace "." with "::" for access to "QApplication::exec".( äƒÙúÿÿÿÿ

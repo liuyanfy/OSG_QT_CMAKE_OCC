@@ -1,0 +1,32 @@
+
+M	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(¯„è§
+M	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(ºÿÄÂ
+E	cpp:S3656"+Member variables should not be "protected".(×ëÛŠÿÿÿÿÿ
+†	cpp:S4963"lRemove this class' copy constructor and copy assignment operator so that the class follows the rule of Zero.(×ëÛŠÿÿÿÿÿ
+x	cpp:S1448"^Class has 101 methods, which is greater than the 35 authorized. Split it into smaller classes.(×ëÛŠÿÿÿÿÿ
+I	cpp:S3471)"/Use "override" or "final" instead of "virtual".(ç»È¤ûÿÿÿÿ
+D	cpp:S3471*"/Use "override" or "final" instead of "virtual".(‚Æ¨­
+U	cpp:S5416.";"using" should be preferred to "typedef" for type aliasing.(á·É¼ûÿÿÿÿ
+P	cpp:S5416f";"using" should be preferred to "typedef" for type aliasing.(”¢ÑÌ
+E	cpp:S3471"/Use "override" or "final" instead of "virtual".(’ûæĞ
+J	cpp:S3471“"/Use "override" or "final" instead of "virtual".(Ú•Å€şÿÿÿÿ
+J	cpp:S3471—"/Use "override" or "final" instead of "virtual".(³“»ÿÿÿÿÿ
+J	cpp:S3471œ"/Use "override" or "final" instead of "virtual".(ƒ¥Ù¨ûÿÿÿÿ
+5	cpp:S4962œ"Use the "nullptr" literal.(ƒ¥Ù¨ûÿÿÿÿ
+V	cpp:S5416 ";"using" should be preferred to "typedef" for type aliasing.(¨Ûû˜úÿÿÿÿ
+J	cpp:S3471©"/Use "override" or "final" instead of "virtual".(³Áèğıÿÿÿÿ
+J	cpp:S3471®"/Use "override" or "final" instead of "virtual".(ú§Ÿ„ıÿÿÿÿ
+J	cpp:S3471´"/Use "override" or "final" instead of "virtual".(·îÑšùÿÿÿÿ
+J	cpp:S3471¿"/Use "override" or "final" instead of "virtual".(è€Ãúÿÿÿÿ
+J	cpp:S3471Â"/Use "override" or "final" instead of "virtual".(‘ªœÌşÿÿÿÿ
+E	cpp:S3471Å"/Use "override" or "final" instead of "virtual".(Çİ”í
+J	cpp:S3471È"/Use "override" or "final" instead of "virtual".(²šûşÿÿÿÿ
+J	cpp:S3471Ë"/Use "override" or "final" instead of "virtual".(ì¼Ââúÿÿÿÿ
+E	cpp:S3471Î"/Use "override" or "final" instead of "virtual".(ŒÈáñ
+E	cpp:S3471Ñ"/Use "override" or "final" instead of "virtual".(ŠÍ¦
+E	cpp:S3471Ô"/Use "override" or "final" instead of "virtual".(—âõÄ
+D	cpp:S3471Û"/Use "override" or "final" instead of "virtual".(‚ƒÆy
+J	cpp:S3471ì"/Use "override" or "final" instead of "virtual".(Í°Ç‘øÿÿÿÿ
+<	cpp:S3642ü"&Replace this "enum" with "enum class".(Î–º¤
+¥	cpp:S1242¡"‰Correct these functions so that no function in "osg::ConfigureBufferObjectsVisitor::apply" hides a function in "osg::NodeVisitor::apply".(Ş¥ù§ùÿÿÿÿ
+M	cpp:S3471¡"2Annotate this function with "override" or "final".(Ş¥ù§ùÿÿÿÿ

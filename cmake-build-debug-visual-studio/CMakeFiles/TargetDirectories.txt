@@ -1,0 +1,5 @@
+D:/Project/github/occosg/cmake-build-debug-visual-studio/CMakeFiles/QT_CMAKE_OSG_OCC.dir
+D:/Project/github/occosg/cmake-build-debug-visual-studio/CMakeFiles/edit_cache.dir
+D:/Project/github/occosg/cmake-build-debug-visual-studio/CMakeFiles/rebuild_cache.dir
+D:/Project/github/occosg/cmake-build-debug-visual-studio/CMakeFiles/QT_CMAKE_OSG_OCC_autogen_timestamp_deps.dir
+D:/Project/github/occosg/cmake-build-debug-visual-studio/CMakeFiles/QT_CMAKE_OSG_OCC_autogen.dir
