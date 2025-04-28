@@ -1,0 +1,5 @@
+
+Mcpp:S954B"4Move this #include directive to the top of the file.(ã¡¿ïûÿÿÿÿ
+[	cpp:S35395"ARemove this access specifier; it does not affect any declaration.(±ãÕËşÿÿÿÿ
+[	cpp:S3539:"ARemove this access specifier; it does not affect any declaration.(ĞòÚÚüÿÿÿÿ
+C	cpp:S3471.".Drop the "virtual" specifier; it is redundant.(òã–

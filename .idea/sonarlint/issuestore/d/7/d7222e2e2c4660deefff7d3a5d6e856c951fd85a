@@ -1,0 +1,20 @@
+
+U	cpp:S5416=";"using" should be preferred to "typedef" for type aliasing.(æÃ´õúÿÿÿÿ
+P	cpp:S5416>";"using" should be preferred to "typedef" for type aliasing.(ì›ÿ¯
+U	cpp:S5416?";"using" should be preferred to "typedef" for type aliasing.(æõ¡¤ıÿÿÿÿ
+U	cpp:S5416@";"using" should be preferred to "typedef" for type aliasing.(ö†¤’ÿÿÿÿÿ
+P	cpp:S5416A";"using" should be preferred to "typedef" for type aliasing.(›ĞË«
+U	cpp:S5416B";"using" should be preferred to "typedef" for type aliasing.(›ÎšËÿÿÿÿÿ
+P	cpp:S5416C";"using" should be preferred to "typedef" for type aliasing.(„äÇ
+P	cpp:S5416D";"using" should be preferred to "typedef" for type aliasing.(î÷Â´
+N	cpp:S5008D"9Replace this use of "void *" with a more meaningful type.(î÷Â´
+P	cpp:S5416E";"using" should be preferred to "typedef" for type aliasing.(½Ü•Ò
+P	cpp:S5416F";"using" should be preferred to "typedef" for type aliasing.(Ç´ë
+P	cpp:S5416I";"using" should be preferred to "typedef" for type aliasing.(éæˆ·
+P	cpp:S5416J";"using" should be preferred to "typedef" for type aliasing.(şœİ
+P	cpp:S5416Q";"using" should be preferred to "typedef" for type aliasing.(ÎÙ‡‹
+U	cpp:S5416R";"using" should be preferred to "typedef" for type aliasing.(ô·şÿÿÿÿ
+U	cpp:S5416S";"using" should be preferred to "typedef" for type aliasing.(İÑÿûÿÿÿÿ
+U	cpp:S5416U";"using" should be preferred to "typedef" for type aliasing.(ÌŸùËşÿÿÿÿ
+P	cpp:S5416X";"using" should be preferred to "typedef" for type aliasing.(½ÍïÑ
+P	cpp:S5416Y";"using" should be preferred to "typedef" for type aliasing.(¼ì×È

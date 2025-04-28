@@ -1,6 +1,8 @@
 
 M	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(¯„è§
 M	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(ºÿÄÂ
+T	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(¯„è§8Ÿì¥«æ2
+T	cpp:S5028"8Replace this macro by "const", "constexpr" or an "enum".(ºÿÄÂ8­ö¥«æ2
 E	cpp:S3656"+Member variables should not be "protected".(×ëÛŠÿÿÿÿÿ
 †	cpp:S4963"lRemove this class' copy constructor and copy assignment operator so that the class follows the rule of Zero.(×ëÛŠÿÿÿÿÿ
 x	cpp:S1448"^Class has 101 methods, which is greater than the 35 authorized. Split it into smaller classes.(×ëÛŠÿÿÿÿÿ

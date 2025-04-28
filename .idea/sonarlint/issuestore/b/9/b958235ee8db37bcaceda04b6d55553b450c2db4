@@ -3,8 +3,8 @@ n	cpp:S3776"TRefactor this function to reduce its Cognitive Complexity from 2
 J	cpp:S16596"0Define each identifier in a dedicated statement.(ˆ‰‰ùÿÿÿÿ
 A	cpp:S5827@"'Replace the redundant type with "auto".(ıĞ™‡ıÿÿÿÿ
 E	cpp:S1659N"0Define each identifier in a dedicated statement.(„æİÉ
-Ecpp:S872A",Reconsider this operator for 'bool' operand.(‘‘Àõúÿÿÿÿ
-8	cpp:S1110["#Remove these redundant parentheses.(×¯ÂŸ
+@cpp:S872A",Reconsider this operator for 'bool' operand.(Ì…š°
+=	cpp:S1110["#Remove these redundant parentheses.(¡á“±şÿÿÿÿ
 B	cpp:S5827˜"'Replace the redundant type with "auto".(İÇƒÆıÿÿÿÿ
 =	cpp:S5827™"'Replace the redundant type with "auto".(Â¤Ìõ
 B	cpp:S5827Ÿ"'Replace the redundant type with "auto".(ğü³œûÿÿÿÿ

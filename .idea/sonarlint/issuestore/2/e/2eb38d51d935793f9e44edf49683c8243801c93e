@@ -1,0 +1,5 @@
+
+w	cpp:S1448'"]Class has 55 methods, which is greater than the 35 authorized. Split it into smaller classes.(Éæ’†ûÿÿÿÿ
+I	cpp:S60203"4Replace the use of "::type" with "std::enable_if_t".(‰Ïõž
+N	cpp:S6020<"4Replace the use of "::type" with "std::enable_if_t".(è¨÷Éþÿÿÿÿ
+„	cpp:S3230."oDo not use the constructor's initializer list for data member "myOrient". Use the in-class initializer instead.(¦ß
